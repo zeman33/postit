@@ -1,0 +1,55 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+.tableau 
+{
+    display: flex;
+    height: 800px;
+    background-color: grey;
+    border: solid 4px black;
+
+}
+.left 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+
+}
+.right
+{
+    width: 80%;
+    height: 100%;
+    background-color: red;
+}
+.orange
+{
+    background-color: orange;
+    width: 100px;
+    height: 150px;
+   
+}
+.bleu
+{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+}
+
+.jaune
+{
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+}
+.menu
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
